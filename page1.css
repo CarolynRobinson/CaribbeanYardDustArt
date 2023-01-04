@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(16, 83, 42);
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.product {
+    height: 600px;
+    width: 400px;
+    /* border: 1px solid rgb(24, 1, 1); */
+    flex-basis: 50%;
+}
+
+img {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.product div {
+    margin: 0 auto;
+    width: 200px;
+
+}
+
+.add_to_cart_button {
+    background-color: orangered;
+    display: inline-block;
+}
