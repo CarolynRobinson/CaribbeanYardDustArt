@@ -37,3 +37,10 @@ img {
     background-color: orangered;
     display: inline-block;
 }
+
+.quantity_input {
+    display: inline-block;
+    background-color: darkslategray;
+    width: 30px;
+    border: 1px solid black;
+}
